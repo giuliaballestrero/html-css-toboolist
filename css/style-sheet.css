@@ -47,7 +47,8 @@ section {
 }
 
 #tasks {
-    border-radius: 10px;
+    height: 50rem;
+    border-radius: 0 0 15px 15px;
 }
 
 .pageset {
@@ -72,4 +73,16 @@ button {
 #sectionbutton {
     background-color: white;
     color: lightgray;
+}
+
+.bluelabel {
+    background-color: #45abea;
+}
+
+.labels {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    color: #F6F8F9;
+
 }
