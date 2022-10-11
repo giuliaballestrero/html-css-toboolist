@@ -83,12 +83,16 @@ button {
 
 }
 
-p {
-    margin-top: 1rem;
+h2 {
+    display: inline-block;
 }
 
 ul {
     list-style-type: none;
+  }
+
+  li {
+    line-height: 2rem;
   }
 
 /* Done-Undone Symbols */
