@@ -32,7 +32,9 @@ header h1 {
 }
 
 main {
-    margin: 10rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 section {
