@@ -19,9 +19,28 @@ header {
 
 header img {
     height: 5rem;
+    margin-left: 1rem
 }
 
-#main-title {
+header h1 {
     font-size: 3rem;
     font-weight: bold;
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: text-bottom;
+
 }
+
+main {
+    margin: 10rem;
+}
+
+#taskbar {
+    margin-top: 5rem;
+    background-color: #F6F8F9;
+    height: 5rem;
+}
+
+#taskbutton
+
+#selectionbutton
