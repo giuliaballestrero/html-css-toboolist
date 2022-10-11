@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-/* questo è un commento */
 
 body {
     background-color: lightgrey;
@@ -28,7 +27,6 @@ header h1 {
     display: inline-block;
     padding: 1rem;
     vertical-align: text-bottom;
-
 }
 
 main {
@@ -85,28 +83,29 @@ button {
 
 }
 
-.donesimbols {
-    background-color: #F6F8F9;
-    color: green;
-    font-size: 1rem;
-    padding: 0.2rem;
-    margin-right: 0.5rem;
-    border: 1px solid green;
-    border-radius: 50%;
-}
-
-.undonesimbols {
-    background-color: #F6F8F9;
-    color: red;
-    font-size: 1rem;
-    padding: 0.2rem;
-    margin-right: 0.5rem;
-    border: 1px solid red;
-    border-radius: 50%;
-}
-
 p {
     margin-top: 1rem;
+}
+
+
+/* Done-Undone Symbols */
+
+.done {
+    color: green;
+    border: 1px solid green;
+}
+
+.undone {
+    color: red;
+    border: 1px solid red;
+}
+
+.symbols {
+    background-color: #F6F8F9;  
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
 }
 
 
