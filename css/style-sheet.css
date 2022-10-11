@@ -49,14 +49,14 @@ section {
 }
 
 #tasks {
-    height: 50rem;
+    height: 35rem;
     border-radius: 0 0 15px 15px;
 }
 
 .pageset {
     margin-left: 3rem;
     vertical-align: middle;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 button {
