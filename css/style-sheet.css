@@ -39,8 +39,29 @@ main {
     margin-top: 5rem;
     background-color: #F6F8F9;
     height: 5rem;
+    border-radius: 15px 15px 0px 0px;
 }
 
-#taskbutton
+.pageset {
+    margin-left: 3rem;
+    vertical-align: middle;
+    padding: 2rem;
+}
 
-#selectionbutton
+button {
+    border: 1px solid lightgray;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 5px 5px;
+    line-height: 50%;
+}
+
+#taskbutton {
+    background-color: #45abea;
+    color: white;
+}
+
+#sectionbutton {
+    background-color: white;
+    color: lightgray;
+}
