@@ -1,0 +1,141 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgrey;
+    font-family:'Roboto';
+}
+
+header {
+    background-color: #F6F8F9;
+}
+
+header img {
+    height: 5rem;
+    margin-left: 1rem
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: text-bottom;
+}
+
+main {
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+section {
+    background-color: #F6F8F9;
+}
+
+#taskbar {
+    height: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0.1rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#tasks {
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.pageset {
+    margin-left: 3rem;
+    vertical-align: middle;
+    padding: 1.5rem;
+}
+
+button {
+    border: 1px solid lightgray;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 5px 5px;
+    line-height: 50%;
+}
+
+#taskbutton {
+    background-color: #45abea;
+    color: white;
+}
+
+#sectionbutton {
+    background-color: white;
+    color: lightgray;
+}
+
+.labels {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    color: #F6F8F9;
+
+}
+
+p {
+    margin-top: 1rem;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+/* Done-Undone Symbols */
+
+.done {
+    color: green;
+    border: 1px solid green;
+}
+
+.undone {
+    color: red;
+    border: 1px solid red;
+}
+
+.symbols {
+    background-color: #F6F8F9;  
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+}
+
+.arrowsymbol {
+    font-size: 1rem;
+}
+
+
+
+/* label colors */
+.bluelabel {
+    background-color: #45abea;
+}
+
+.purplelabel {
+    background-color: #9c72e4;
+}
+
+.greenlabel {
+    background-color: #9CD8C9;
+}
+.orangelabel {
+    background-color: #F3A13A;
+}
+.pinklabel {
+    background-color: #D863A1;
+}
+
+.lightgreenlabel {
+    background-color: #B9CF3E;
+}
