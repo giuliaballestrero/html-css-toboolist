@@ -75,14 +75,58 @@ button {
     color: lightgray;
 }
 
-.bluelabel {
-    background-color: #45abea;
-}
-
 .labels {
     padding: 0.5rem;
     border-radius: 0.5rem;
     font-size: 0.6rem;
     color: #F6F8F9;
 
+}
+
+.donesimbols {
+    background-color: #F6F8F9;
+    color: green;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.undonesimbols {
+    background-color: #F6F8F9;
+    color: red;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+p {
+    margin-top: 1rem;
+}
+
+
+/* label colors */
+.bluelabel {
+    background-color: #45abea;
+}
+
+.purplelabel {
+    background-color: #9c72e4;
+}
+
+.greenlabel {
+    background-color: #9CD8C9;
+}
+.orangelabel {
+    background-color: #F3A13A;
+}
+.pinklabel {
+    background-color: #D863A1;
+}
+
+.lightgreenlabel {
+    background-color: #B9CF3E;
 }
