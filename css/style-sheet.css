@@ -35,11 +35,19 @@ main {
     margin: 10rem;
 }
 
-#taskbar {
-    margin-top: 5rem;
+section {
     background-color: #F6F8F9;
+}
+
+#taskbar {
     height: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0.1rem;
     border-radius: 15px 15px 0px 0px;
+}
+
+#tasks {
+    border-radius: 10px;
 }
 
 .pageset {
